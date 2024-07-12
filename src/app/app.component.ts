@@ -1,6 +1,4 @@
-
 import { Component } from '@angular/core';
-
 import { TasksComponent } from './tasks/tasks.component';
 // import { LoggingService } from './logging.service';
 
@@ -11,5 +9,4 @@ import { TasksComponent } from './tasks/tasks.component';
   imports: [TasksComponent],
   // providers: [LoggingService]
 })
-export class AppComponent {
-}
+export class AppComponent { }

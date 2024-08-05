@@ -9,6 +9,7 @@ import { TasksListComponent } from './tasks-list/tasks-list.component';
   standalone: true,
   templateUrl: './tasks.component.html',
   imports: [NewTaskComponent, TasksListComponent],
+  styleUrl: './tasks.component.css'
   // providers: [TasksService]
 })
 export class TasksComponent { }

@@ -3,21 +3,19 @@ article {
   padding: 1rem;
   border-radius: 4px;
   border-left: 8px solid transparent;
-}
-
-.status-open {
-  border-color: #f8d63c;
-  background-color: #2d2a22;
-}
-
-.status-in-progress {
-  border-color: #3ceff8;
   background-color: #211f1a;
 }
 
+.status-open {
+  border-color: #ffeeb5;
+}
+
+.status-in-progress {
+  border-color: #ffffff;
+}
+
 .status-done {
-  border-color: #c484fc;
-  background-color: #39372e;
+  border-color: #8a8a8a;
 }
 
 header {
@@ -42,15 +40,15 @@ header p {
 }
 
 .status-open header p {
-  background-color: #f8d63c;
+  background-color: #ffeeb5;
 }
 
 .status-in-progress header p {
-  background-color: #3ceff8;
+  background-color: #ffffff;
 }
 
 .status-done header p {
-  background-color: #c484fc;
+  background-color: #8a8a8a;
 }
 
 p {

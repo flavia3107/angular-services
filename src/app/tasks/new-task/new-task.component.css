@@ -1,6 +1,5 @@
 form {
   width: 30rem;
-  padding: 2rem;
   border-radius: 4px;
   background-color: #21201b;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
@@ -13,7 +12,7 @@ label {
   display: block;
   margin-bottom: 0.15rem;
   font-weight: bold;
-  color: #ffe055;
+  color: #ffeeb5;
 }
 
 input,
@@ -24,8 +23,17 @@ textarea {
   margin-bottom: 0.25rem;
   border: none;
   background-color: #545144;
-  color: #ffe055;
+  color: #ffeeb5;
   border-radius: 0.25rem;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+}
+
+textarea {
+  min-height: calc(100vh - 18rem);
 }
 
 #actions {
@@ -36,7 +44,7 @@ button {
   font: inherit;
   padding: 0.5rem 1rem;
   border: none;
-  background-color: #ffe055;
+  background-color: #ffeeb5;
   color: #2c2a21;
   border-radius: 0.25rem;
   cursor: pointer;

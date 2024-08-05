@@ -1,9 +1,9 @@
 :host {
   display: block;
-  width: 40rem;
   border-radius: 4px;
   background-color: #44433f;
-  margin-top: 2rem;
+  height: 100%;
+  width: 100%;
 }
 
 header {
@@ -15,19 +15,20 @@ header {
 
 h2 {
   margin: 0;
-  color: #d2ccb2;
+  color: #f2e5ab;
   font-size: 1rem;
   text-transform: uppercase;
 }
 
 select {
   font: inherit;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   border: none;
   background-color: #262521;
-  color: #feeaa6;
+  color: #ffe055;
   border-radius: 0.25rem;
   font-size: 0.9rem;
+  font-weight: 500;
 }
 
 ul {

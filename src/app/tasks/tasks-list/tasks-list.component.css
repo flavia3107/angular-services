@@ -2,7 +2,6 @@
   display: block;
   border-radius: 4px;
   background-color: #3c3c3b;
-  height: 100%;
   width: 71%;
   padding: 1rem 2rem;
 }
@@ -40,6 +39,6 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0.5rem;
-  height: calc(100vh - 14rem);
+  height: calc(100% - 9rem);
   overflow: auto;
 }

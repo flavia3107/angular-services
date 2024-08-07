@@ -15,7 +15,6 @@ body {
   margin: 0;
   background-color: #22211e;
   color: #f5f1e0;
-  height: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -35,46 +34,6 @@ body {
 
 ::-webkit-scrollbar-corner {
   background: transparent;
-}
-
-.movie-details-content-container div::-webkit-scrollbar-thumb {
-  background: #9b9b9b;
-  width: 3px;
-}
-
-.movie-details-content-container div::-webkit-scrollbar {
-  width: 3px;
-}
-
-.navigation-top {
-  width: 100%;
-  height: 3.5rem;
-}
-
-.navigation-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0;
-  height: 100%;
-  align-items: center;
-  padding: 4px 1rem;
-  box-sizing: border-box;
-}
-
-.navigation-container li {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-header {
-  text-align: center;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
 }
 
 .logo > img {
@@ -114,6 +73,8 @@ header {
   font-size: 0.85rem;
 }
 
-ul {
-  list-style: none;
+.logo {
+  display: flex;
+  margin: 1rem 0 0.5rem 1rem;
+  text-decoration: none;
 }

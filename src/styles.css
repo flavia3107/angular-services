@@ -13,8 +13,8 @@ html {
 
 body {
   margin: 0;
-  background-color: #22211e;
-  color: #f5f1e0;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: #232323;
 }
 
 ::-webkit-scrollbar {
@@ -59,7 +59,7 @@ body {
   padding: 0;
   line-height: 1;
   letter-spacing: 4px;
-  color: #ffffff;
+  color: #232323;
 }
 
 .logo-txt h1 {

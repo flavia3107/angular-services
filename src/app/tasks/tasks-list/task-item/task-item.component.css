@@ -2,20 +2,8 @@ article {
   background-color: #282620;
   padding: 1rem;
   border-radius: 4px;
-  border-left: 8px solid transparent;
+  border-left: 8px solid #232323;
   background-color: #211f1a;
-}
-
-.status-open {
-  border-color: #8da6ee;
-}
-
-.status-in-progress {
-  border-color: #ffffff;
-}
-
-.status-done {
-  border-color: #8a8a8a;
 }
 
 header {
@@ -40,15 +28,17 @@ header p {
 }
 
 .status-open header p {
-  background-color: #8da6ee;
+  background-color: #fff;
 }
 
 .status-in-progress header p {
-  background-color: #ffffff;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 .status-done header p {
-  background-color: #8a8a8a;
+  background-color: #434343;
+  color: #d2d2d2;
 }
 
 p {
@@ -76,17 +66,15 @@ select {
 }
 
 button {
-  font: inherit;
-  padding: 0.25rem 0.5rem;
-  border: none;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid;
   background-color: transparent;
-  color: #d2d2d2;
+  color: #ffffff;
   border-radius: 0.25rem;
   cursor: pointer;
-  font-size: 0.75rem;
 }
 
 button:hover,
 button:active {
-  color: #f8d63c;
+  background-color: #4e4e4e;
 }

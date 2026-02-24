@@ -12,6 +12,7 @@ header {
   align-items: center;
   padding: 0 1rem;
   margin-bottom: 1rem;
+  min-width: 22rem;
 }
 
 h2 {

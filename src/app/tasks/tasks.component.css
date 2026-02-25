@@ -5,3 +5,9 @@
     padding: 1rem 2rem;
     height: 95vh;
 }
+
+@media (max-width: 730px) {
+    app-tasks-list {
+        width: fit-content;
+    }
+}
